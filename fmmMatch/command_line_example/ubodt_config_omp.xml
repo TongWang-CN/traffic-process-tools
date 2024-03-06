@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <input>
+    <network>
+      <file>../data/WGS84.shp</file>
+      <id>fid_1</id>
+      <source>u</source>
+      <target>v</target>
+    </network>
+  </input>
+  <parameters>
+    <delta>0.01</delta>
+  </parameters>
+  <output>
+    <file>../data/ubodt.txt</file>
+  </output>
+  <other>
+    <log_level>2</log_level>
+    <use_omp/>
+  </other>
+</config>
